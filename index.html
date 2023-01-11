@@ -33,7 +33,7 @@
                         <i class="fa-solid fa-grip-vertical fa-xl"></i>
                     </button>
                     <button id="prof_pic">
-                        <img src="./images/" alt="Profile Picture" />
+                        <img src="./images/profile_pic.jpg" alt="Profile Picture" />
                     </button>
                 </div>
             </div>
@@ -84,26 +84,36 @@
         </section>
 
         <!-- Stories Section -->
-        <section>
-            <div>
-                <div>
-                    <img src="./images/lionel2.jpg" alt="Lionel" />
+        <section class="stories_section">
+            <div class="stories_content">
+
+                <div class="lionel_pics">
+                    <img src="./images/lionel2.jpg" alt="Lionel" id="lionel1" />
                     <img src="./images/lionel3.jpg" alt="Lionel" />
                     <img src="./images/lionel4.jpg" alt="Lionel" />
-                    <img src="./images/lionel6.jpg" alt="Lionel" />
+                    <img src="./images/lionel6.jpg" alt="Lionel" id="lionel4" />
                 </div>
+                <a href="" id="more_images">
+                    <i class="fa-regular fa-image"></i>
+                    <h5>More images</h5>
+                </a>
 
-                <div>
+                <div class="top_stories">
                     <h2>Top stories</h2>
-                    <a href="">News about PSG, Lionel Messi ></a>
+                    <div id="psg_news">
+                    <a href="" >
+                        News about PSG, Lionel Messi
+                        <i class="fa-solid fa-chevron-right fa-sm"></i>
+                    </a>
+                    </div>
 
-                    <div>
-                        <a href="">
+                    <div class="first_top_stories">
+                        <a href="" class="giveme_news">
                             <img src="./images/givemesport.png" alt="Givemesport" />
                             <h3>Lionel Messi returns to PSG: Neymar's greeting goes viral</h3>
                             <h6>18 hours ago</h6>
                         </a>
-                        <a href="">
+                        <a href="" class="right_top_stories">
                             <div>
                                 <img src="./images/Marca.png" alt="Marca" />
                                 <h3>Mbappe's absence deepens the rift with Messi at PSG</h3>
@@ -114,20 +124,24 @@
                     </div>
                 </div>
 
-                <div>
-                    <a href="">Joan Laporta on Messi's exit</a>
-
-                    <div>
+                <div class="second_top_stories">
+                    <div class="joan_laporta">
                         <a href="">
-                            <div>
+                            Joan Laporta on Messi's exit
+                        </a>
+                    </div>
+
+                    <div class="second_stories_content">
+                        <a href="">
+                            <div class="laporta_left">
                                 <img src="./images/goal.png" alt="Givemesport" />
-                                <h3>Laporta insists Messi exit was 'best' for Barcelona: I had to put the club ...</h3>
+                                <h3>Laporta insists Messi exit was 'best' for Barcelona: I had to put the club ahead ...</h3>
                                 <h6>23 hours ago</h6>
                             </div>
                             <img src="./images/lionel8.jpg" alt=""/>
                         </a>
                         <a href="">
-                            <div>
+                            <div class="sbnation_right">
                                 <img src="./images/sbnation.png" alt="Marca" />
                                 <h3>Laporta says he couldn’t keep Messi as Barcelona were in ‘economic ruin’</h3>
                                 <h6>16 hours ago</h6>
@@ -137,33 +151,33 @@
                     </div>
                 </div>
 
-                <div>
-                    <a href="">Also in the news</a>
-
+                <div class="also_news">
                     <div>
+                        <a href="">Also in the news</a>
+                    </div>
+
+                    <div class="also_news_content">
                         <a href="">
-                            <div>
+                            <div class="independent_news">
                                 <img src="./images/ind_news.png" alt="Independent news" />
                                 <h3>The gap between Lionel Messi and Cristiano Ronaldo has never been clearer</h3>
                                 <h6>2 hours ago</h6>
                             </div>
-                            <a href="">
-                                <img src="./images/lionel9.jpg" alt="" />
-                                <img src="./images/play_button.svg" alt="" />
-                            </a>
+                            <img src="./images/lionel9.jpg" alt="" id="cris_leo" />
+                            <img src="./images/play_button.svg" alt="" id="play_button"/>
                         </a>
                         <a href="">
-                            <div>
+                            <div class="marca_news">
                                 <img src="./images/Marca.png" alt="Marca" />
                                 <h3>Luis Suarez: Leo Messi helped me decide on Gremio</h3>
                                 <h6>17 hours ago</h6>
                             </div>
-                            <img src="./images/lionel01.jpg" alt=""/>
-                            <img src="./images/play_button.svg" />
+                            <img src="./images/lionel01.jpg" alt="" id="img_right"/>
+                            <img src="./images/play_button.svg" id="play_button" />
                         </a>
                     </div>
-                    <a href="">
-                        More News
+                    <a href="" class="m_news">
+                        More news
                         <i class="fa-solid fa-arrow-right"></i>
                     </a>
                 </div>
@@ -205,12 +219,121 @@
                     </div>
                 </div>
 
-                <div>
-
-                </div>
             </div>
 
-            <div>
+            <div class="about_container">
+
+                <div>
+                    <h3>
+                        About
+                    </h3>
+                    <p>
+                        Lionel Andrés Messi, also known as Leo Messi, is an Argentine professional footballer who plays as a forward for Ligue 1 club Paris Saint-Germain and captains the Argentina national team. <a href="">Wikipedia</a>
+                    </p>
+                    <p>
+                        <em>Born:</em> 24 June 1987 (age 35 years), <a href="">Rosario, Argentina</a>
+                    </p>
+                    <p>
+                        <em>Height:</em> 1.69 m
+                    </p>
+                    <p>
+                        <em>Spouse:</em><span> <a href="">Antonela Roccuzzo</a> (m. 2017)</span>
+                    </p>
+                    <p>
+                        <em>Current teams:</em><span> </span><a href="">Paris Saint-Germain F.C. </a>(#30 / Forward), <a href="">Argentina national football team</a> (#10 / Forward)
+                    </p>
+                    <p>
+                        <em>Salary:</em> 41 million USD (2022)
+                    </p>
+                    <p>
+                        <em>Shoe size:</em> 10
+                    </p>
+                    <p>
+                        <em>Children: </em><a>Mateo Messi Roccuzzo</a>, <a href="">Thiago Messi Roccuzzo</a>, <a href="">Ciro Messi Roccuzzo</a>
+                    </p>
+                </div>
+
+                <div>
+                    <a href="">
+                        <h3>Stats</h3>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                    <a href="">
+                        Argentina
+                    </a>
+                    <table>
+                        <thead>
+                            <td>League</td>
+                            <td>Matches</td>
+                            <td>Goals</td>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a href="">World Cup<p>2022</p></a></td>
+                                <td>7</td>
+                                <td>7</td>
+                            </tr>
+                            <tr>
+                                <td><a href="">World Cup Qualifiers<p>2020-22</p></a></td>
+                                <td>15</td>
+                                <td>7</td>
+                            </tr>
+                            <tr>
+                                <td><a href="">Copa America<p>2021</p></a></td>
+                                <td>7</td>
+                                <td>4</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div>
+
+                    <h3>Profiles</h3>
+                    <div>
+                        <a href="">
+                            <img src="./images/instagram.png" alt="instagram_logo" />
+                            <p>Instagram</p>
+                        </a>
+                        <a href="">
+                            <img src="./images/youtube.png" alt="youtube_logo" />
+                            <p>Instagram</p>
+                        </a>
+                        <a href="">
+                            <img src="./images/facebook.png" alt="facebook_logo" />
+                            <p>Instagram</p>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div>
+                    <h3>People also search for</h3>
+                    <div>
+                        <a href="">
+                            <img src="./images/other_search1.jpg" alt="Gareth Bale" />
+                            <p>Gareth Bale</p>
+                            <p>Trending</p>
+                        </a>
+                        <a href="">
+                            <img src="./images/other_search2.jpg" alt="Cristiano Ronaldo" />
+                            <p>Cristiano Ronaldo</p>
+                        </a>
+                        <a href="">
+                            <img src="./images/other_search3.jpg" alt="Neymar" />
+                            <p>Neymar</p>
+                        </a>
+                        <a href="">
+                            <img src="./images/other_search4.jpg" alt="Kylian Mbappe" />
+                            <p>Kylian Mbappe</p>
+                        </a>
+                    </div>
+
+                    <a href="">
+                        See more
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
 
             </div>
         </section>
